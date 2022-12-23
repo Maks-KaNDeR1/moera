@@ -1,0 +1,93 @@
+.profileBlock {
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #faebd796;
+        box-shadow: 0px 7px 11px 2px rgb(157 142 120 / 79%);
+    }
+
+    h2 {
+        margin: 15px 0 20px 0;
+        color: rgb(25 129 161);
+        width: 900px;
+
+        @media screen and (max-width: 900px) {
+            text-align: center;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 20px;
+        width: 100%;
+
+        .profileView {
+            display: flex;
+            background-color: #fff;
+            width: 900px;
+            padding: 20px;
+            border: 1px solid #00000026;
+
+            img {
+                border-radius: 15px;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+            }
+
+            .desc {
+                margin-left: 30px;
+
+                .fullName {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: rgb(4, 4, 29);
+                    margin-bottom: 5px;
+
+                    em {
+                        font-weight: 400;
+                        margin-left: 5px;
+                        color: black;
+                        font-size: 10px;
+                    }
+                }
+
+                .name {
+                    font-size: 13px;
+                }
+
+                .title {
+                    margin: 3px 0;
+                    max-width: 900px;
+                    min-width: 160px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .profileBlock {
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            .profileView {
+                flex-direction: column;
+                justify-content: center;
+
+                .desc {
+                    margin: 10px 0 0 2px;
+
+                }
+            }
+        }
+    }
+}
