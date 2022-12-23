@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moera/static/css/main.f825b886.css",
+    "main.js": "/moera/static/js/main.2a12be3a.js",
+    "static/js/787.7dd1822d.chunk.js": "/moera/static/js/787.7dd1822d.chunk.js",
+    "index.html": "/moera/index.html",
+    "main.f825b886.css.map": "/moera/static/css/main.f825b886.css.map",
+    "main.2a12be3a.js.map": "/moera/static/js/main.2a12be3a.js.map",
+    "787.7dd1822d.chunk.js.map": "/moera/static/js/787.7dd1822d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f825b886.css",
+    "static/js/main.2a12be3a.js"
+  ]
+}
